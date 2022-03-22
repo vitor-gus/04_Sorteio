@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cads">
+        <h1 class="title">INSIRA UM NOME PARA O SORTEIO</h1>
+        <input type="text" name="nome" id="nome">
+        <button id="cadastro" onclick="cadastrar()">Incluir</button>
+    </div>
+    <hr>
+
+    <div class="srts"><button id="sortear" onclick="sortear()">Sortear</button></div>
+    
+
+    <div id="rtela">
+        <button id="xis" onclick="fechar()">X</button>
+        <h1>Parabéns!!!!!!</h1>
+        <h1 id="resultado"></h1>
+    </div>
+    <div id="fundo"></div>
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
