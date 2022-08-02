@@ -10,7 +10,7 @@ let list = []
 let chamaLocal = JSON.parse(localStorage.getItem('nomes'))
     
 onload = function(){
-    list == chamaLocal
+    list = chamaLocal
     }
 
 nome.addEventListener('keypress', (e)=>{
